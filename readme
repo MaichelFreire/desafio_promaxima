@@ -15,18 +15,9 @@ SQlite
 Selenium
 Google Chrome
 
-# Para execução
+# caso necessario criar e ativar ambiente virtual
 
-1 - necessario ter o python instalado - versao utilizada 3.12.1 [3.12.1](https://www.python.org/downloads/release/python-3121/)
-2 - necessario ter o navegador google chrome instalado
-3 - clone o repositorio
-4 - instale as dependencias do arquivo requirements.txt com o comando: pip install -r requirements.txt
-5 - execute o servidor do Django no caminho -> desafio_promaxima/manage.py com o comando: python manage.py runserver
-6 - para executar o script de coleta de dados executar do diretorio raiz do projeto -> scrapping.py com o comando: python scrapping.py
 
-**Obs:** Caso necessario ative o ambiente virtual antes da instalação do arquivo 'requirements.txt'.
-
-# criar e ativar ambiente virtual
 No diretorio raiz de seu projeto utilizando windows, digite no terminal o comando: python -m venv nome_ambiente
 Para ambientes linux digite python3 -m venv ambiente virtual
 
@@ -34,6 +25,19 @@ Para ativar no windows cd ambiente_virtual/scripts em seguida .\activate
 Para ativar o ambiente virtual no Linux, utilize o seguinte comando:
 ```bash
 source nome_ambiente/bin/activate
+
+# Para execução
+
+**Obs:** Caso necessario ative o ambiente virtual antes da instalação do arquivo 'requirements.txt'.
+
+1 - necessario ter o python instalado - versao utilizada 3.12.1 [3.12.1](https://www.python.org/downloads/release/python-3121/)
+2 - necessario ter o navegador google chrome instalado
+3 - clone o repositorio link [https://github.com/MaichelFreire/desafio_promaxima.git]
+4 - no diretorio do arquivo requirements.txt instale as dependencias com o comando: pip install -r requirements.txt
+5 - execute o servidor do Django no caminho -> desafio_promaxima com o comando: python manage.py runserver
+6 - para executar o script de coleta de dados executar do diretorio raiz do projeto -> scrapping.py com o comando: python scrapping.py
+
+
 
 # modelo de dados
 
