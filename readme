@@ -1,0 +1,46 @@
+# Desafio PROMAXIMA Django + Web Scraping
+
+**Objetivo:** Construir uma aplicação web que realize a coleta de dados da web,
+armazene esses dados em um banco de dados SQLite.
+
+
+# Aplicação para coleta de dados
+O site utilizad foi: [https://licitacoes1.caixa.gov.br/sicve-web/public/view/visitante/visitante.jsf#], devido a sua clareza no front,
+não a necessidade de exportação de arquivos, todas informações necessarias já são carregadas em seu Front.
+
+
+# ferramentas utilizadas
+Django
+SQlite
+Selenium
+Google Chrome
+
+# Para execução
+
+1 - necessario ter o python instalado - versao utilizada 3.12.1 [3.12.1](https://www.python.org/downloads/release/python-3121/)
+2 - necessario ter o navegador google chrome instalado
+3 - clone o repositorio
+4 - instale as dependencias do arquivo requirements.txt com o comando: pip install -r requirements.txt
+5 - execute o servidor do Django no caminho -> desafio_promaxima/manage.py com o comando: python manage.py runserver
+6 - para executar o script de coleta de dados executar do diretorio raiz do projeto -> scrapping.py com o comando: python scrapping.py
+
+**Obs:** Caso necessario ative o ambiente virtual antes da instalação do arquivo 'requirements.txt'.
+
+# criar e ativar ambiente virtual
+No diretorio raiz de seu projeto utilizando windows, digite no terminal o comando: python -m venv nome_ambiente
+Para ambientes linux digite python3 -m venv ambiente virtual
+
+Para ativar no windows cd ambiente_virtual/scripts em seguida .\activate
+Para ativar o ambiente virtual no Linux, utilize o seguinte comando:
+```bash
+source nome_ambiente/bin/activate
+
+# modelo de dados
+
+DataSerch - (modelo Django)
+ campos: Descricao licitacao, n_certame, atividade, modalidade, comprador, descricao, unidade, quantidade, valor, data_inclusao
+
+
+
+
+
